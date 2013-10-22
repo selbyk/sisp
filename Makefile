@@ -22,10 +22,10 @@
 # submit    to hand in your program for grading
 # depend    to update header file dependencies
 
-HDR  =	Tokens.h Scanner.h Parser.h Tree.h Special.h
-SRC  =	Main.cpp Scanner.cpp Parser.cpp Tree.cpp Special.cpp
-OBJ  =	Main.o Scanner.o Parser.o Tree.o Special.o
-EXE  =	spp
+HDR  =	Tokens.h Scanner.h Parser.h Tree.h Special.h Closure.h Environment.h
+SRC  =	Main.cpp Scanner.cpp Parser.cpp Tree.cpp Special.cpp Closure.cpp Environment.cpp
+OBJ  =	Main.o Scanner.o Parser.o Tree.o Special.o Closure.o Environment.o
+EXE  =	scheme4101
 PRT  =	lp2
 GRD  =	README Makefile ${HDR} ${SRC}
 
